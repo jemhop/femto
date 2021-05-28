@@ -1,0 +1,3 @@
+/home/jemhop/CLionProjects/femto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jemhop/CLionProjects/femto/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jemhop/CLionProjects/femto/cmake-build-debug/CMakeFiles/femto.dir

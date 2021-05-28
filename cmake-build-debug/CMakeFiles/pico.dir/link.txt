@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/pico.dir/main.c.o -o pico 

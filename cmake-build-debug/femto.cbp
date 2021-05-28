@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="femto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jemhop/CLionProjects/femto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jemhop/CLionProjects/femto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jemhop/CLionProjects/femto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="femto">
+				<Option output="/home/jemhop/CLionProjects/femto/cmake-build-debug/femto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jemhop/CLionProjects/femto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 femto"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="femto/fast">
+				<Option output="/home/jemhop/CLionProjects/femto/cmake-build-debug/femto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jemhop/CLionProjects/femto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 femto/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jemhop/CLionProjects/femto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/ANSI.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/ANSI.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/displayBuffer.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/displayBuffer.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/draw.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/draw.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/syntaxhl.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/display/syntaxhl.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/globals.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/input/keypress.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/input/keypress.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/main.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/main.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/terminal/editor.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/terminal/editor.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/terminal/terminal.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/terminal/terminal.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/util/file.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/util/file.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/util/stringParser.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/util/stringParser.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/util/stringUtil.c">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/src/util/stringUtil.h">
+			<Option target="femto"/>
+		</Unit>
+		<Unit filename="/home/jemhop/CLionProjects/femto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
